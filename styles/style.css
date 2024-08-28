@@ -130,7 +130,7 @@ ol {
   width: 19px;
   height: 19px;
   outline: 1px solid white;
-  position: relative;
+  /* position: relative; */
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -139,10 +139,10 @@ ol {
   width: 15px;
   height: 15px;
   background-color: white;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .search-form__submit-button {
