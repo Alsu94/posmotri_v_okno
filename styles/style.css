@@ -72,7 +72,7 @@ ol {
   column-gap: 40px;
 }
 
-.search-form__fieldset {
+/* .search-form__fieldset {
   border: none;
 }
 
@@ -128,10 +128,10 @@ ol {
   width: 19px;
   height: 19px;
   border: 1px solid white;
-  /* position: relative; */
+  position: relative;
 }
 
-/* .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: '';
   display: block;
   width: 15px;
@@ -141,7 +141,7 @@ ol {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-} */
+}
 
 .search-form__submit-button {
   align-self: flex-end;
@@ -209,7 +209,7 @@ ol {
 
 .content__list-item:not(:last-child) {
   margin-bottom: 30px;
-}
+} */
 
 
 
