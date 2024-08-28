@@ -252,7 +252,7 @@ ol {
   align-items: flex-start;
   justify-content: flex-start;
   column-gap: 5px;
-  padding: 4px;
+  padding: 2px;
 }
 
 .content__video-card-title {
@@ -260,7 +260,7 @@ ol {
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 107%;
+  line-height: 100%;
   margin-bottom: 6px;
 }
 
