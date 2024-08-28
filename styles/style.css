@@ -41,8 +41,6 @@ ol {
   list-style: none;
 }
 
-
-
 .content {
   display: flex;
   align-items: flex-end;
@@ -129,21 +127,21 @@ ol {
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-  outline: 1px solid white;
+  border: 1px solid white;
   /* position: relative; */
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+/* .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: '';
   display: block;
   width: 15px;
   height: 15px;
   background-color: white;
-  /* position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
-}
+  transform: translate(-50%, -50%);
+} */
 
 .search-form__submit-button {
   align-self: flex-end;
