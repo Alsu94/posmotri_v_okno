@@ -17,7 +17,6 @@ html {
   font-size: 18px;
   background-color: #1b1919;
 
-
   display: flex;
   justify-content: center;
   align-items:center
@@ -42,17 +41,8 @@ ol {
   list-style: none;
 }
 
-
-
-
-
-
-
-
-
-
 .visually-hidden {
-  /* position: absolute; */
+  position: absolute;
   inline-size: 1px;
   block-size: 1px;
   overflow: hidden;
@@ -69,24 +59,20 @@ ol {
 
 .result {
   width: 711px;
-  /* width: 100%; */
 }
 
 .result__video-container {
   position: relative;
   padding-bottom: 56%;
-  /* width: 711px; */
   margin-bottom: 16px;
-
 }
 
 .result__video {
-  /* position: absolute;
+  position: absolute;
   inset: 0;
   width: 100%;
-  height: 100%; */
+  height: 100%;
 }
-
 
 .search-form {
   display: grid;
@@ -109,10 +95,6 @@ ol {
   display: flex;
   column-gap: 5px;
   cursor: pointer;
-  /* grid-template-columns: repeat(3, auto); */
-  /* width: fit-content; */
-  /* white-space: nowrap;
-  overflow: hidden; */
 }
 
 .search-form__label:has(:focus-visible) {
@@ -155,7 +137,7 @@ ol {
   width: 19px;
   height: 19px;
   outline: 1px solid white;
-  /* position: relative; */
+  position: relative;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -164,10 +146,10 @@ ol {
   width: 15px;
   height: 15px;
   background-color: white;
-  /* position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
 }
 
 .search-form__submit-button {
