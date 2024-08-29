@@ -157,7 +157,7 @@ ol {
 }
 
 .button {
-  background-color:transparent;
+  background-color: transparent;
   border: 1px solid white;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -181,10 +181,12 @@ ol {
 }
 
 .button:focus-visible {
-  outline: thick double white;
+  outline: 1px solid white;
+  outline-offset: 3px;
 }
 
 .content__details {
+  min-width: 399px;
   flex: 1;
 }
 
